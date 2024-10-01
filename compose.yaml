@@ -1,0 +1,7 @@
+#version: "1.0"
+
+services:
+  nginx: #nome do container
+    image: nginx:latest  #imagem do container
+    ports: #portas
+      - "8080:80"
